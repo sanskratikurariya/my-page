@@ -5,7 +5,7 @@ import About from "./components/About";
 import FeaturedMenu from "./components/FeaturedMenu";
 import Footer from "./components/Footer";
 import FadeSection from "./components/FadeSection";
-// Updated import name and path
+
 
 export default function App() {
   return (
