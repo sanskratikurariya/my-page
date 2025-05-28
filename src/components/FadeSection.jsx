@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-export default function FadeInSection({ children, delay = 0 }) {
+export default function FadeSection({ children, delay = 0 }) {
   const domRef = useRef();
   const [isVisible, setVisible] = useState(false);
 

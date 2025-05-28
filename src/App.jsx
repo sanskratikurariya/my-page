@@ -4,28 +4,25 @@ import Slider from "./components/Slider";
 import About from "./components/About";
 import FeaturedMenu from "./components/FeaturedMenu";
 import Footer from "./components/Footer";
-import FadeInSection from "./components/FadeInSEction";
-
-
-
+import FadeSection from "./components/FadeSection";
+// Updated import name and path
 
 export default function App() {
   return (
     <div className="font-sans">
-
       <Header />
-      <FadeInSection delay={200} >
+      <FadeSection delay={200}>
         <Slider />
-      </FadeInSection>
-      <FadeInSection delay={400}>
+      </FadeSection>
+      <FadeSection delay={400}>
         <About />
-      </FadeInSection>
-      <FadeInSection delay={600}>
+      </FadeSection>
+      <FadeSection delay={600}>
         <FeaturedMenu />
-      </FadeInSection>
-      <FadeInSection delay={800}>
+      </FadeSection>
+      <FadeSection delay={800}>
         <Footer />
-      </FadeInSection>
+      </FadeSection>
     </div>
   );
 }
